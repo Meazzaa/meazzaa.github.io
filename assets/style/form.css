@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  font-family: sans-serif;
+  padding-bottom: 45px;
+}
+
+.navbar {
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  width: 160px;
+  cursor: pointer;
+  margin-top: 0%;
+  margin-left: -2%;
+}
+
+ul {
+  margin-top: -4%;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+
+ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(4, 56, 56);
+  margin-top: -3%;
+  transition: 0.4s ease;
+}
+
+ul li a:hover {
+  color: #0088a9;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: rgb(4, 56, 56);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0088a9;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
